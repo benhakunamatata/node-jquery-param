@@ -1,12 +1,13 @@
 {
   "name": "node-jquery-param",
   "version": "0.0.0",
-  "description": "",
+  "description": "node jquery param",
+  "repository": "https://github.com/benhakunamatata/node-jquery-param.git",
   "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test/*Test.js && node_modules/.bin/jshint lib"
   },
-  "author": "weimama",
+  "author": "weimama <ben.hakunamatata@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "querystring": "~0.2.0"
